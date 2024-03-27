@@ -1,0 +1,197 @@
+/**************************************************** GENERAL ************************************************/
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Verdana', sans-serif;
+  font-size: 12px;
+  background-color: #f5f5f5;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.conteneur {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+/**************************************************** HAUT ************************************************/
+header {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+header span {
+  color: yellowgreen;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-right: 5%;
+}
+
+header nav {
+  display: inline;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+header nav a:hover {
+  background: #04baf6;
+}
+
+/**************************************************** MILIEU ************************************************/
+section {
+  padding: 30px;
+  min-height: 800px;
+}
+
+/**************************************************** BAS ************************************************/
+footer {
+  background: #111;
+  color: #b34613;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15%;
+  width: 100%;
+  padding-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+  margin: 5px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.réseaux {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.réseaux li {
+  margin: 0 8px;
+}
+
+.réseaux a {
+  text-decoration: none;
+  color: #d58506;
+  transition: color .4s ease;
+}
+
+.réseaux a:hover {
+  color: #0485c0;
+}
+
+.footer-enbas {
+  background: #000;
+  width: 100%;
+  height: 15%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.footer-enbas p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.footer-enbas span {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+
+/**************************************************** GENERAL ************************************************/
+.erreur {
+  background: #ff0000;
+  padding: 5px;
+  margin: 5px;
+}
+
+.validation {
+  background: #669933;
+  padding: 5px;
+  margin: 5px;
+}
+
+.cadre {
+  border: 1px solid #c0c0c0;
+  width: 30%;
+}
+
+.cadre h2 {
+  background: #c0c0c0;
+  margin: 0;
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.cadre p {
+  padding: 10px;
+}
+
+.centre {
+  text-align: center;
+}
+
+/**************************************************** DIVERS ************************************************/
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+table tr td,
+td,
+th {
+  padding: 5px;
+  text-align: center;
+}
+
+/* Bouton stylisé */
+.bouton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #04baf6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bouton:hover {
+  background-color: #0485c0;
+}
